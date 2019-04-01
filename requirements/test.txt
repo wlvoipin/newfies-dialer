@@ -1,5 +1,5 @@
-pytest==2.6.4
-pytest-django==2.8.0
+pytest==3.6.0
+pytest-django==3.0.0
 pytest-pythonpath==0.6
 pytest-xdist
 git+http://github.com/mverteuil/pytest-ipdb.git
