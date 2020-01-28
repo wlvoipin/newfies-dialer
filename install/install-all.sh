@@ -125,12 +125,12 @@ esac
 if [ $INSTALL_FS = "yes" ]; then
     #Install Freeswitch
     cd /usr/src/
-    wget --no-check-certificate https://github.com/wlvoipin/newfies-dialer/$BRANCH/install/install-freeswitch.sh -O install-freeswitch.sh
+    wget --no-check-certificate https://github.com/wlvoipin/newfies-dialer/tree/$BRANCH/install/install-freeswitch.sh -O install-freeswitch.sh
     bash install-freeswitch.sh
     /etc/init.d/freeswitch start
 fi
 
 #Install Newfies
 cd /usr/src/
-wget --no-check-certificate https://github.com/wlvoipin/newfies-dialer/$BRANCH/install/install-newfies.sh -O install-newfies.sh
+wget --no-check-certificate https://github.com/wlvoipin/newfies-dialer/tree/$BRANCH/install/install-newfies.sh -O install-newfies.sh
 bash install-newfies.sh
