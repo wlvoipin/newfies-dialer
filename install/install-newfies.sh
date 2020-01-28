@@ -31,7 +31,7 @@ fi
 #Get Scripts dependencies
 cd /usr/src/
 rm newfies-dialer-functions.sh
-wget --no-check-certificate https://github.com/wlvoipin/newfies-dialer/$BRANCH/install/newfies-dialer-functions.sh -O newfies-dialer-functions.sh
+wget --no-check-certificate https://github.com/wlvoipin/newfies-dialer/tree/$BRANCH/install/newfies-dialer-functions.sh -O newfies-dialer-functions.sh
 #Include cdr-stats install functions
 source newfies-dialer-functions.sh
 
